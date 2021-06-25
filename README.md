@@ -43,7 +43,7 @@ request would be denied.
 
 Then in a different shell:
 ```sh
-curl -x https:://localhost:8080 'http://api.giphy.com/v1/gifs/search?q=I&api_key=dc6zaTOxFJmzC'
+curl -x https:://localhost:8080 'http://api.giphy.com/v1/gifs/search?q=I&api_key=dc6zaTOxFJmzC' --ssl-reqd
 ```
 
 However, this example will just result in an error unless you setup
