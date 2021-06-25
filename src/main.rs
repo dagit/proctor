@@ -9,14 +9,6 @@ use std::thread;
 // Test with:
 // curl -x <proxy_hostname>:<port> https:://<remote_host> --ssl-reqd
 
-// TODO:
-// 1. Make readme
-// 2. upload to github
-// 4. write instructions
-// 5. check if there were any other rquirements
-// 6. document what I might do to make it more privacy preserving
-// 7. hand it in
-
 // The command line options.
 #[derive(Clap, Debug)]
 #[clap(name = "proctor")]
