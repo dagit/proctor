@@ -1,0 +1,12 @@
+[package]
+name = "proctor"
+version = "0.1.0"
+authors = ["Jason Dagit <dagitj@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.2"
+itertools = "0.10.1"
+simple-error = "0.2.3"
